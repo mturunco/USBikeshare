@@ -231,8 +231,8 @@ def main():
             while((flag != 1) and (flag!=2)):
                 flag=int(input('\nPlease enter available input: '))
             print(df.iloc[start:end])
-            start+=5
-            end+=5
+            start+=6
+            end+=6
             
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
